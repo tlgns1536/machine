@@ -1,0 +1,40 @@
+<html>
+    <body>
+				<meta name="viewport" content="width=device-width, user-scalable=no">
+				<div>[[[ TRADE INFO ]]] <span id="port"></span></div>
+				<div>[ update time ] <span id="update"><span></div>
+				<div>[ LT ] <span id="last"></span>
+				H <span id="hrate"></span> L <span id="lrate"></span></div>
+				<div>[ HP ] <span id="hprice"></span>
+				3 tick low: <span id="hpriceavg"></span></div>
+				<div>[ LP ] <span id="lprice"></span>
+				3 tick high: <span id="lpriceavg"></span></div>
+				<div>[ last trade time] <span id="trade"></span></div>
+				<div>[ BTC qty ] <span id="qty"></span> </div>
+				<div>[ wallet price ] <span id="hold"></span></div>
+				<div>[ last income ] <span id="lincome"></span></div>
+				<div>[ gross income ] <span id="gincome"></span></div>
+				<div>[ last sell price ] <span id="sell"></span></div>
+				<div>[ last buy price ] <span id="buy"></span></div>
+				<p>[[[ GET INFO ]]]</p>
+				<div><span id="info"></span></div>
+				<p>[[[ ETC TRADE INFO ]]]</p>
+				<div>[ recent complete order ] <span id="recent"></span></div>
+				<div>[ recent order book ask avg ] <span id="askavg"></span></div>
+				<div>[ recent order book ask high ] <span id="askhigh"></span></div>
+				<div>[ recent order book ask low ] <span id="asklow"></span></div>
+				<div>[ recent order book bid avg ] <span id="bidavg"></span></div>
+				<div>[ recent order book bid high ] <span id="bidhigh"></span></div>
+				<div>[ recent order book bid low ] <span id="bidlow"></span></div>
+				<div>[ recent order book AskBid avg ] <span id="avg"></span></div>
+				<p>[[[ GET ERROR ]]]</p>
+				<div><span id="error"></span></div>
+				<script src="client.js"></script>
+				<script>
+					getValue();
+					setInterval(getValue, 3000);
+				</script>
+    </body>
+</html>
+
+
